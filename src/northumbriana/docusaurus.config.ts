@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Northumbriana',
   tagline: 'Northumberland\'s Culture and Heritage',
-  favicon: 'img/northumberland.jpg',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -17,8 +17,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'northumbriana', // Usually your GitHub org/user name.
+  projectName: 'web', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -68,52 +68,61 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Northumbriana',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Northumbriana',
+        src: 'img/logo.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'External Links',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'The Northumbrian Small Pipes',
+              to: 'https://www.nspipes.co.uk',
+            },
+            {
+              label: 'Morpeth Music Society',
+              to: 'https://www.morpeth-musoc.org.uk/',
+            },
+            {
+              label: 'Morpeth Chantry Bagpipe Museum',
+              to: 'https://www.bagpipemuseum.org.uk/',
+            },
+            {
+              label: 'The Northumbrian Pipers\' Society',
+              to: 'https://www.northumbrianpipers.org.uk/',
+            },
+            {
+              label: 'Mid-Northumberland Chorus',
+              to: 'https://midnorthumberlandchorus.org.uk/index.html',
+            },
+            {
+              label: 'Language Society (Sister Site)',
+              to: 'https://northumbrianlanguagesociety.co.uk/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Socials',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Morpeth Gathering on Facebook',
+              href: 'https://www.facebook.com/morpeth.gathering',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Morpeth Antiquarian Society on Facebook',
+              href: 'https://www.facebook.com/MorpethAntiquarians',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Language Society on Facebook',
+              href: 'https://www.facebook.com/profile.php?id=100066714247623',
             },
           ],
         },
