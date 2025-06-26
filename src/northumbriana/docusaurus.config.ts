@@ -9,11 +9,10 @@ const config: Config = {
   tagline: 'Northumberland\'s Culture and Heritage',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
+  // TODO - This will need updating when deployed to prod
   url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // TODO - This will probs need updating to / when deployed to prod
+  baseUrl: '/northumbriana-demo/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
