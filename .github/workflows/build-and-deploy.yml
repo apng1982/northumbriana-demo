@@ -17,20 +17,20 @@ jobs:
         with:
           node-version: 18
           cache: npm
-          cache-dependency-path: northumbriana-demo/src/northumbriana/package-lock.json
+          cache-dependency-path: ./src/northumbriana/package-lock.json
 
       - name: Install dependencies
         run: npm install
-        working-directory: northumbriana-demo/src/northumbriana
+        working-directory: ./src/northumbriana
         
       - name: Build website
         run: npm run build
-        working-directory: northumbriana-demo/src/northumbriana
+        working-directory: ./src/northumbriana
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: northumbriana-demo/src/northumbriana/build
+          path: ./src/northumbriana/build
 
   deploy:
     name: Deploy to GitHub Pages

@@ -36,7 +36,8 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          routeBasePath: "/",
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -74,7 +75,7 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-
+        {to: '/contact', label: 'Contact Us', position: 'right'}
       ],
     },
     footer: {
