@@ -66,7 +66,12 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        {to: '/contact', label: 'Contact Us', position: 'right'}
+        {to: '/gathering', label: 'The Gathering', position: 'left'},
+        {to: '/gathering', label: 'Gallery', position: 'left'},
+
+        {to: '/contact', label: 'Contact Us', position: 'right'},
+        {to: '/contact', label: 'Patrons', position: 'right'},
+        {to: '/contact', label: 'Fund Raisers', position: 'right'}
       ],
     },
     footer: {
