@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Morpeth Antiquarian Society',
-    Svg: require('@site/static/img/Morpeth_Clock_Tower.png').default,
+    Svg: require('@site/static/img/chantry.png').default,
     href: "antiquarian-society",
     description: (
       <>
@@ -55,7 +55,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Northumbriana Events',
-    Svg: require('@site/static/img/Events.png').default,
+    Svg: require('@site/static/img/rappa_team.png').default,
     href: "events",
     description: (
         <>
