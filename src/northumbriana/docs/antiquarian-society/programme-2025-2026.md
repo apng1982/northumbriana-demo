@@ -16,11 +16,11 @@ Visitors and new members always welcome!
 
 :::
 
-### 26th September 2025 - David Silk
+### 26th September 2025: David Silk
 Children of the Devil: A tale of witchcraft and wickedness in 17th Century Newcastle
 
 
-### 31st October 2025 - Mark Benjamin
+### 31st October 2025: Mark Benjamin
 
 A History of Hexham in 6 Controversies, and a Big Stink
 
