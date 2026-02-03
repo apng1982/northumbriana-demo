@@ -13,7 +13,6 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -29,9 +28,27 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.hero--secondary {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+}
+
+.hero__lead {
+  font-size: 1.2rem;
+}
+
 @media (max-width: 480px) {
   .hero__title {
     display: none;
   }
+}
+
+.pagination-nav {
+  display: none;
 }
 

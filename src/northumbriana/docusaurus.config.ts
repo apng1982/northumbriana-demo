@@ -85,20 +85,12 @@ const config: Config = {
               to: 'https://www.nspipes.co.uk',
             },
             {
-              label: 'Morpeth Music Society',
-              to: 'https://www.morpeth-musoc.org.uk/',
-            },
-            {
               label: 'Morpeth Chantry Bagpipe Museum',
               to: 'https://www.bagpipemuseum.org.uk/',
             },
             {
               label: 'The Northumbrian Pipers\' Society',
               to: 'https://www.northumbrianpipers.org.uk/',
-            },
-            {
-              label: 'Mid-Northumberland Chorus',
-              to: 'https://midnorthumberlandchorus.org.uk/index.html',
             },
             {
               label: 'Language Society (Sister Site)',

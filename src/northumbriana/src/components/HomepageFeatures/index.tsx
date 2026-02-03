@@ -1,12 +1,11 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import Link from "@docusaurus/Link";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: string; //React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
   href: string;
 };
@@ -14,7 +13,8 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Morpeth Northumbrian Gathering',
-    Svg: require('@site/static/img/Alex_Swailes_Town_Crier_2.png').default,
+    //Svg: require('@site/static/img/Alex_Swailes_Town_Crier_2.png').default,
+    Svg: require('@site/static/img/clarence-for-ads.gif').default,
     href: "gathering",
     description: (
       <>
@@ -23,19 +23,8 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Morpeth Antiquarian Society',
-    Svg: require('@site/static/img/chantry.png').default,
-    href: "antiquarian-society",
-    description: (
-      <>
-        The Society is your local history society, providing:
-        lectures, exhibitions, research, and publications, founded in 1946.
-      </>
-    ),
-  },
-  {
     title: 'Northumbrian Language Society',
-    Svg: require('@site/static/img/Northumbrian_Language_Society.png').default,
+    Svg: require('@site/static/img/nls-man.gif').default,
     href: "language-society",
     description: (
         <>
@@ -44,8 +33,29 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
+    title: 'Northumbriana Events',
+    Svg: require('@site/static/img/crawhall-dancers.jpg').default,
+    href: "events",
+    description: (
+        <>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+        </>
+    ),
+  },
+  {
+    title: 'Morpeth Antiquarian Society',
+    Svg: require('@site/static/img/mas-pretend-crawhall.png').default,
+    href: "antiquarian-society",
+    description: (
+        <>
+          The Society is your local history society, providing:
+          lectures, exhibitions, research, and publications, founded in 1946.
+        </>
+    ),
+  },
+  {
     title: 'Northumbriana Magazine',
-    Svg: require('@site/static/img/Magazine.png').default,
+    Svg: require('@site/static/img/crawhall-printers.jpg').default,
     href: "magazine",
     description: (
         <>
@@ -53,28 +63,20 @@ const FeatureList: FeatureItem[] = [
         </>
     ),
   },
-  {
-    title: 'Northumbriana Events',
-    Svg: require('@site/static/img/rappa_team.png').default,
-    href: "events",
-    description: (
-        <>
-
-        </>
-    ),
-  }
 ];
 
 function Feature({title, Svg, href, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={Svg} className={styles.featureSvg} role="img"  alt="image"/>
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Link to={href}><h3>{title}</h3></Link>
-        <p>{description}</p>
-      </div>
+      <Link to={href} className={styles.featureCardLink} aria-label={title}>
+        <div className="text--center">
+          <img src={Svg} className={styles.featureSvg} role="img"  alt="image"/>
+        </div>
+        <div className="text--center padding-horiz--md">
+          <h3 className={styles.featureTitle}>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </Link>
     </div>
   );
 }

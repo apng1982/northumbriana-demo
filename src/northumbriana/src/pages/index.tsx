@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import {JSX, ReactNode} from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
@@ -16,7 +16,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div>
+        <div className="hero__lead">
           <p>
             Northumberland is England's northernmost county, bounded to the East by the North Sea, to the North by Scotland, to the west by the county of Cumbria, and to the South by County Durham.
           </p>

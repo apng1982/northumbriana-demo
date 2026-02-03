@@ -1,4 +1,8 @@
-# 2025 Gathering
+---
+sidebar_position: 2
+---
+
+# 2025 Competitions
 
 ## Programme
 
@@ -6,7 +10,7 @@
 
 ### GROUP A :  ART & CRAFT
 
-#### A1 Art (Lynda Swift Trophy
+#### A1 Art (Lynda Swift Trophy)
 1st:  Paul Raven (Morpeth); 2nd:  Irene Gilmartin (Morpeth);  
 3rd:  Ray Quickfall (Whickham);  Highly Commended:  Roy Sanderson
 (Morpeth)
