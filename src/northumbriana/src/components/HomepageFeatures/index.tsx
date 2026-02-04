@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
     href: "events",
     description: (
         <>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+          Upcoming events run by the family of Northumbriana partners – concerts, talks, exhibitions and special themed activities.
         </>
     ),
   },
