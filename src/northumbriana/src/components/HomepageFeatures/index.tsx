@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Northumbriana Events',
-    Svg: require('@site/static/img/crawhall-dancers.jpg').default,
+    Svg: require('@site/static/img/crawhall-guitar-woman.gif').default,
     href: "events",
     description: (
         <>
