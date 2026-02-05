@@ -34,6 +34,10 @@
   margin-bottom: 24px;
 }
 
+.hero__title__subsite {
+  text-align: center;
+}
+
 .hero__subtitle {
   font-size: 1.5rem;
 }
@@ -50,5 +54,9 @@
 
 .pagination-nav {
   display: none;
+}
+
+.image-full-width {
+  width: 100%;
 }
 

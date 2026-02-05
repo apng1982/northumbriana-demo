@@ -57,7 +57,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Northumbriana',
@@ -67,11 +66,11 @@ const config: Config = {
       },
       items: [
         {to: '/gathering', label: 'The Gathering', position: 'left'},
-        {to: '/gathering', label: 'Gallery', position: 'left'},
+        {to: '/gathering/gallery', label: 'Gallery', position: 'left'},
 
         {to: '/contact', label: 'Contact Us', position: 'right'},
-        {to: '/contact', label: 'Patrons', position: 'right'},
-        {to: '/contact', label: 'Fund Raisers', position: 'right'}
+        {to: '/gathering/become-a-patron', label: 'Patrons', position: 'right'},
+        {to: '/gathering/fund-raisers', label: 'Fund Raisers', position: 'right'}
       ],
     },
     footer: {
@@ -120,7 +119,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/apng1982/northumbriana-demo',
             },
           ],
         },

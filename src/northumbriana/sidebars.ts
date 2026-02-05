@@ -51,6 +51,7 @@ const sidebars: SidebarsConfig = {
           ]
         },
         'gathering/gallery',
+        'gathering/morpeth-music-cd',
         'gathering/fund-raisers',
         'gathering/become-a-patron',
       ]
