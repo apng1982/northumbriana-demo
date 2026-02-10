@@ -16,7 +16,7 @@ By sponsoring a shelf, unit, storage box or even single object you’ll be helpi
 
 All are welcome to come along to Morpeth Antiquarian Society’s in-person local history talks at 7.15 pm on the last Friday of the month (excepting July, August and December) at St James Centre in Wellway, NE61 1BN.
 
-**View [this year's programme listing](programme-2025-2026.md) or [download a PDF version](pdfs/programme-2025-26.pdf)**
+**View [this year's programme listing](programme-2025-2026.mdx) or [download a PDF version](pdfs/programme-2025-26.pdf)**
 
 We ask for a small donation at the door (members £1; visitors £4); there's a raffle to help with our museum collection rental; tea/coffee/biscuits will be served from 7.00 pm before the lecture starts. Hope to see you there!
 
