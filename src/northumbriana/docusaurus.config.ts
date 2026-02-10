@@ -66,8 +66,6 @@ const config: Config = {
       },
       items: [
         {to: '/gathering', label: 'The Gathering', position: 'left'},
-        {to: '/gathering/gallery', label: 'Gallery', position: 'left'},
-
         {to: '/contact', label: 'Contact Us', position: 'right'},
         {to: '/gathering/become-a-patron', label: 'Patrons', position: 'right'},
         {to: '/gathering/fund-raisers', label: 'Fund Raisers', position: 'right'}
