@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # 2026 programme
 
+**Annual festival of Northumberland's traditional music, dance, dialect, crafts, stories, heritage, family events and special themed Vanbrugh Revisited events for the 300th anniversary of Town Hall architect Sir John Vanbrugh.**
+
 :::info[Download PDF version]
 A [downloadable PDF version of the programme is available here](../assets/pdfs/programme-2026.pdf)
 :::
@@ -14,6 +16,18 @@ A [downloadable PDF version of the programme is available here](../assets/pdfs/p
 
 with Alistair Anderson, Graham Bell, Border Directors, Teddy Cuthbert, Sophie Fraser, Miggins Fiddle, James Tait, MC Ron Forster<br/>
 *Town Hall £16/£8*
+
+:::info
+Many free events. 
+
+**Prices** <br/>
+Adult/School age. Under 5s free.<br/>
+Sorry no card/phone payments – please bring cash/cheque.<br/>
+
+**Festival office** <br/>
+Fri/Sat - Town Hall<br/>
+Sun - Chantry front shop
+:::
 
 ## Friday 10th April
 
