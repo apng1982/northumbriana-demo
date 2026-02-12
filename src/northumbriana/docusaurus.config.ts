@@ -99,6 +99,10 @@ const config: Config = {
           title: 'Socials',
           items: [
             {
+              label: 'Morpeth Gathering on YouTube',
+              href: 'https://www.youtube.com/channel/UCN3xZXLGymFF1asySYA8Eyg/videos'
+            },
+            {
               label: 'Morpeth Gathering on Facebook',
               href: 'https://www.facebook.com/morpeth.gathering',
             },
