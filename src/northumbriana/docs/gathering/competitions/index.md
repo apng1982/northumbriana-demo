@@ -4,12 +4,9 @@ sidebar_position: 0
 
 # 2026 Competitions
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+Our competitions are at the heart of the Gathering, continuing in the tradition of such cornerstone events at music festivals, village shows and literary awards. 
 
-Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-
+Through friendly encouragement and presenting opportunities for entertaining examples of the best in music, song, writing, composing, dialect, craft and dance, we hope to inspire people at all ages and levels to fancy having a go - and taking forward into the future - a range of creative activities rooted in our Northumbrian culture.
 
 :::info[Details]
 You may download and print competition entry rules and application forms in PDF format
