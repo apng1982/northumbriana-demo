@@ -1,6 +1,6 @@
 # Northumbriana Events
 
-Click to **[view this year's Gathering programme](/gathering/programme)**
+Click to **[view this year's Gathering programme](../gathering/programme)**
 
 ![2026 Gathering Ad](../gathering/assets/img/concert-poster-march-2026.jpg)
 
